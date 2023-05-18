@@ -13,15 +13,15 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/MLZ_BOTZ/77")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/MW_BOTS/13")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MLZ_BOTZ")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MW_BOTS")],
     ]
 
-    START = """
+    START = """<b>
 Hey {}
 
 Welcome to {}
@@ -33,10 +33,9 @@ If you don't trust this bot,
 Still reading?
 You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
 
-By @MLZ_BOTZ
-    """
+By @MW_BOTS </b>"""
 
-    HELP = """
+    HELP = """<b>
 ✨ **Available Commands** ✨
 
 /about - About The Bot
@@ -44,19 +43,17 @@ By @MLZ_BOTZ
 /start - Start the Bot
 /generate - Generate Session
 /cancel - Cancel the process
-/restart - Cancel the process
-"""
+/restart - Cancel the process </b>"""
 
-    ABOUT = """
+    ABOUT = """<b>
 **About This Bot** 
 
 Telegram Bot to generate Pyrogram and Telethon string session by @MLZ_BOTZ
 
-Source Code : [Click Here](https://t.me/MLZ_BOTZ)
+Source Code : [Click Here](https://t.me/MW_BOTS)
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
 Language : [Python](https://www.python.org)
 
-Developer : @TGxIRFAN
-    """
+Developer : @DevilBoy46 </b>"""
