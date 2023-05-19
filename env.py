@@ -7,7 +7,7 @@ API_ID = os.getenv("API_ID", "28178169").strip()
 API_HASH = os.getenv("API_HASH", "9c6c094150f7d097a48732c53761ec35").strip()
 BOT_TOKEN = os.getenv("BOT_TOKEN", "5998141809:AAEh742jyYPOdsUmki2PuurOIt7oOTaCO5E").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip() # Not a necessary variable anymore but you can add to get stats
-MUST_JOIN = os.getenv("MUST_JOIN", "")
+MUST_JOIN = os.getenv("MUST_JOIN", "@MW_BOTS")
 
 if not API_ID:
     raise SystemExit("No API_ID found. Exiting...")
